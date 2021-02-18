@@ -1,0 +1,42 @@
+{
+  "name": "xangage",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsh-vikram-singh/xangage.git"
+  },
+  "author": "Harsh Vikram Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsh-vikram-singh/xangage/issues"
+  },
+  "homepage": "https://github.com/harsh-vikram-singh/xangage#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "autoprefixer": "^10.2.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.1.0",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.0.3",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
