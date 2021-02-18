@@ -1,10 +1,11 @@
 import React from 'react';
+import Editor from './Editor';
 
 const App = () => {
   return (
-    <div>
-      <p>Hello webpack with tailwindcss!</p>
-    </div>
+    <>
+      <Editor />
+    </>
   );
 };
 
