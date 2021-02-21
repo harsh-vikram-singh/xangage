@@ -10,7 +10,7 @@ const Editor = () => {
   };
 
   return (
-    <>
+    <div className='mx-auto w-full bg-red-200 flex flex-col'>
       <input
         className='border'
         placeholder='Title'
@@ -30,7 +30,7 @@ const Editor = () => {
       <button className='bg-gray-200 border p-2 rounded' onClick={clickHandler}>
         Submit
       </button>
-    </>
+    </div>
   );
 };
 
